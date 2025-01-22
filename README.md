@@ -1,5 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&
-height=166&color=1F3AE2&animation=blink&reversal=true">
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=166&color=1F3AE2&animation=blink&reversal=true">
 
 # <img width=5% src="assets/images/homemaranha.gif"> Aranhaverso
 
