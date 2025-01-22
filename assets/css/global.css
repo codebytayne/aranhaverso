@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #B9001F;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* global.css (ou outro arquivo CSS que desejar) */
+body {
+  cursor: url('../images/cursor/cursor.png'), auto;
+}
+
+/* Cursor padrão para a classe .s-controller e suas divs filhas */
+.s-controller,
+.s-controller div {
+  cursor: url('../images/cursor/cursor.png'), auto;
+}
+
+/* Cursor de hover para a classe .s-controller e suas divs filhas */
+.s-controller:hover,
+.s-controller div:hover {
+  cursor: url('../images/cursor/cursorhover.png'), pointer;
+}
+
+/* Cursor padrão para imagens com a classe .s-card__image */
+.s-card__image {
+  cursor: url('../images/cursor/cursor.png'), auto;
+}
+
+/* Cursor de hover para imagens com a classe .s-card__image */
+.s-card__image:hover {
+  cursor: url('../images/cursor/cursorhover.png'), pointer;
+}
+
+/* Cursor padrão para o menu de navegação e itens de lista */
+.s-menu,
+.s-menu li,
+.s-menu a,
+.s-menu img {
+  cursor: url('../images/cursor/cursor.png'), auto;
+}
+
+/* Cursor de hover para o menu de navegação e itens de lista */
+.s-menu:hover,
+.s-menu li:hover,
+.s-menu a:hover,
+.s-menu img:hover {
+  cursor: url('../images/cursor/cursorhover.png'), pointer;
+}
